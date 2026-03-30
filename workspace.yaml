@@ -1,0 +1,18 @@
+name: Knowledge base
+icon: album
+webEditorUrl: null
+groups: null
+sections: null
+enterprise:
+  gesUrl: null
+  lastUpdateDate: null
+  refreshInterval: null
+services:
+  gitProxy:
+    url: https://gram.ax/git-proxy
+  auth:
+    url: https://gram.ax/auth
+  diagramRenderer:
+    url: https://gram.ax/diagram-renderer
+  cloud:
+    url: https://cloud.gram.ax
