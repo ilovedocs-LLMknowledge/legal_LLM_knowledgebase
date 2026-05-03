@@ -153,6 +153,24 @@ Windows-приложение: анализ договоров через ИИ с
 <tr>
 <td>
 
+[PDF-saver](https://t.me/c/3162399824/182)\
+*Тигран Акопян*
+
+</td>
+<td>
+
+Windows-приложение (.exe): автоматически сохраняет открытые в браузере PDF-файлы, имитируя действия пользователя
+
+</td>
+<td>
+
+[Скачать](https://github.com/neyroprodelki/pdf-saver/releases/tag/v1.0)
+
+</td>
+</tr>
+<tr>
+<td>
+
 [Redacto](https://t.me/docsllm/67322)\
 *Тимур Умаров*
 
@@ -689,6 +707,24 @@ RAG-бот на Gemini для тренировки менеджеров: реа�
 <td>
 
 [Игра](https://alexchebur.github.io/heatclicker/), [RuStore](https://www.rustore.ru/catalog/app/com.onetrilliontec.alexchebur)
+
+</td>
+</tr>
+<tr>
+<td>
+
+Нарративная игра [PRIVACY STRIKES](https://t.me/docsllm/68616)\
+*Кирилл Зюбанов*
+
+</td>
+<td>
+
+Нарративная игра для двух команд о персональных данных, комплаенсе и бизнес-процессах
+
+</td>
+<td>
+
+[Игра](https://privacy-strikes.talkingprivacy.net/#about)
 
 </td>
 </tr>

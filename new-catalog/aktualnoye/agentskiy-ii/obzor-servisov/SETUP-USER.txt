@@ -1,0 +1,175 @@
+# Подключение NotebookLM к Claude (Desktop, Chat, Cowork, Code)
+
+Инструкция для пользователя. Windows 11. Вся процедура — около 20 минут.
+
+В итоге вы сможете обращаться к NotebookLM из:
+- **Claude Desktop → Chat** (обычный чат)
+- **Claude Desktop → Cowork** (агентный режим)
+- **Claude Code** (CLI)
+
+Всё через один и тот же локальный MCP-сервер, работающий через неофициальную библиотеку `notebooklm-py`.
+
+---
+
+## Кто что делает
+
+В этой инструкции часть работы делаете вы руками, часть — Claude Code за вас. Краткая карта:
+
+| Шаг | Кто делает | Где |
+|-----|-----------|-----|
+| 1. Установка notebooklm-py | Вы | PowerShell |
+| 2. Авторизация в Google | Вы | PowerShell + браузер |
+| 3. Создание MCP-сервера | **Claude Code** | — |
+| 4. Подключение к Claude Desktop | **Claude Code** | — |
+| 5. Подключение к Claude Code | **Claude Code** | — |
+| 6. Подключение к Cowork | Вы | Cowork |
+
+Шаги 1, 2, 6 — ваши (нужен браузер и права на установку ПО). Шаги 3–5 делает Claude Code, у него есть отдельная техническая инструкция (`SETUP-CLAUDE.md`). Вам достаточно попросить его.
+
+---
+
+## Что вам понадобится
+
+- Windows 11
+- Google-аккаунт с доступом к NotebookLM
+- Python 3.11+ (проверить: в PowerShell `python --version`)
+- Установленный Claude Desktop
+- Установленный Claude Code (если его нет — скачайте с claude.com)
+
+---
+
+## Шаг 1. Установка библиотеки notebooklm-py
+
+Откройте **обычный PowerShell** (НЕ от администратора).
+
+```powershell
+# Установить pipx (если ещё не установлен)
+python -m pip install --user pipx
+python -m pipx ensurepath
+```
+
+Закройте и откройте PowerShell заново, чтобы обновились пути.
+
+```powershell
+# Установить notebooklm-py с поддержкой браузера (для авторизации)
+pipx install "notebooklm-py[browser]"
+
+# Установить Chromium для Playwright (нужен для одноразовой авторизации)
+C:\Users\<ВАШЕ_ИМЯ>\pipx\venvs\notebooklm-py\Scripts\python.exe -m playwright install chromium
+```
+
+Замените `<ВАШЕ_ИМЯ>` на имя вашей учётной записи Windows.
+
+---
+
+## Шаг 2. Авторизация в Google
+
+**Важно:** запускайте этот шаг ТОЛЬКО из обычного (не-админского) PowerShell. Иначе файл куков получит админские права и не будет читаться потом.
+
+```powershell
+notebooklm login
+```
+
+1. Откроется окно Chromium
+2. Войдите в свой Google-аккаунт
+3. **Дождитесь загрузки главной страницы NotebookLM** (важно — не закрывайте браузер вручную)
+4. Вернитесь в PowerShell и нажмите **Enter**
+5. Должно появиться `Authentication saved to: C:\Users\<вы>\.notebooklm\storage_state.json`
+
+Проверьте:
+
+```powershell
+notebooklm list
+```
+
+Должен показаться список ваших блокнотов.
+
+---
+
+## Шаги 3–5. Передайте Claude Code
+
+Откройте Claude Code и отправьте ему этот запрос:
+
+> Настрой NotebookLM по инструкции из `C:\Users\<ВАШЕ_ИМЯ>\Documents\Veritas\Code\notebooklm-docs\SETUP-CLAUDE.md`. Я уже прошёл Шаги 1 и 2 — библиотека установлена, авторизация сохранена. Сделай Шаги 3, 4 и 5.
+
+Claude Code сам:
+
+- создаст папку `C:\Users\<ВАШЕ_ИМЯ>\notebooklm-mcp\` с виртуальным окружением и файлом `server.py`
+- добавит блок `mcpServers` в `claude_desktop_config.json`
+- зарегистрирует сервер в Claude Code через `claude mcp add`
+
+Перед началом он сделает **проверку окружения** (Step 0 в его инструкции) и покажет вам таблицу: что готово, что нет. Если чего-то не хватает — скажет вам конкретно что.
+
+После этого **полностью перезапустите Claude Desktop** (закройте и откройте заново).
+
+**Проверка:** в Claude Desktop → Chat спросите «покажи мои блокноты в NotebookLM». Должен вернуть список.
+
+### Если у вас нет Claude Code
+
+Откройте `SETUP-CLAUDE.md` и выполните Шаги 3–5 руками — там есть все команды и шаблон `server.py`.
+
+---
+
+## Шаг 6. Подключение к Claude Desktop Cowork
+
+Cowork не использует MCP-серверы напрямую — ему нужен **плагин**, который оборачивает наш MCP-сервер. Плагин должен собрать сам Cowork через свой встроенный скилл `create-cowork-plugin`.
+
+1. Откройте Cowork в Claude Desktop → **New task**
+2. Попросите Claude Code сгенерировать для вас промпт (с подставленным вашим именем пользователя):
+
+> Сгенерируй промпт для Cowork для создания плагина NotebookLM (Шаг 6.1 из `SETUP-CLAUDE.md`)
+
+3. Скопируйте выданный промпт и вставьте в Cowork
+4. Cowork задаст несколько уточняющих вопросов и соберёт `.plugin` файл
+5. В чате появится карточка с кнопкой установки — нажмите её
+
+**Проверка:** в новом Cowork-таске спросите «выведи список блокнотов из NotebookLM».
+
+---
+
+## Частые проблемы
+
+### «Authentication error» / «getaddrinfo failed»
+Сессия истекла или нет интернета. Перелогиньтесь:
+```powershell
+notebooklm login
+```
+
+### «PermissionError: [Errno 13]» при чтении storage_state.json
+Файл создан из админ-PowerShell. Решение:
+```powershell
+Remove-Item -Recurse $env:USERPROFILE\.notebooklm
+notebooklm login
+```
+(из обычного PowerShell, не от админа)
+
+### В Cowork плагин не устанавливается через drag-and-drop
+Не пытайтесь загружать готовый `.plugin` файл — попросите Cowork собрать его через `create-cowork-plugin` скилл (Шаг 6).
+
+### Chromium «не найден» при login
+Переустановите Chromium из того же PowerShell, где запускаете login:
+```powershell
+C:\Users\<ВАШЕ_ИМЯ>\pipx\venvs\notebooklm-py\Scripts\python.exe -m playwright install chromium
+```
+
+---
+
+## Архитектура (для понимания)
+
+```
+┌─────────────────────┐   ┌──────────────────┐   ┌─────────────────┐
+│ Claude Code         │──▶│                  │   │                 │
+│ Claude Desktop Chat │──▶│  Local MCP       │──▶│  notebooklm-py  │──▶ Google NotebookLM
+│ Claude Cowork       │──▶│  server.py       │   │  (HTTP client)  │     (REST API)
+│  (via plugin)       │   │                  │   │                 │
+└─────────────────────┘   └──────────────────┘   └─────────────────┘
+                               ▲
+                               │ reads cookies
+                               │
+                    ~/.notebooklm/storage_state.json
+                    (создаётся одноразово через notebooklm login)
+```
+
+- MCP-сервер — это обычный stdio-процесс, который общается с Claude по JSON-RPC
+- Авторизация хранится в cookie-файле и обновляется при необходимости командой `notebooklm login`
+- Для Cowork нужен плагин-обёртка, т.к. Cowork не подключает MCP-серверы напрямую

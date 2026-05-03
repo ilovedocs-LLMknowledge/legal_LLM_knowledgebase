@@ -15,7 +15,7 @@ title: Где учиться работе с нейросетями
 
 Если вы только-только познакомились с нейросетями и хотите получить целостную картину, начните с книги «*Юристы и нейросети: руководство к действию*». В ней доступно объясняются основы, даются практические примеры применения в юридической работе и разбираются частые ошибки.
 
-Приобрести можно здесь: [**OZON**](https://www.ozon.ru/product/yuristy-i-neyroseti-rukovodstvo-k-deystviyu-pavel-mishchenko-3543629335/?at=46tR5gVWYSBOB2Jrik63KEFXyxGAqUXEOnBVhDVl5Zn) | [**Читай-город**](https://www.chitai-gorod.ru/product/uristy-i-nejroseti-rukovodstvo-k-dejstviu-3149021) | [**Буквоед**](https://www.bookvoed.ru/product/uristy-i-nejroseti-rukovodstvo-k-dejstviu-8790312)
+Приобрести можно здесь: [**OZON**](https://www.ozon.ru/product/yuristy-i-neyroseti-rukovodstvo-k-deystviyu-pavel-mishchenko-3543629335/?at=46tR5gVWYSBOB2Jrik63KEFXyxGAqUXEOnBVhDVl5Zn) | [**Читай-город**](https://www.chitai-gorod.ru/product/uristy-i-nejroseti-rukovodstvo-k-dejstviu-3149021) | [**Буквоед**](https://www.bookvoed.ru/product/uristy-i-nejroseti-rukovodstvo-k-dejstviu-8790312) | [**WB**](/)
 
 Параллельно с книгой можно посмотреть серию видео основателя сообщества [Нейросети | ilovedocs](https://t.me/docsllm) Павла Мищенко **«Новогодний ИИнтенсив»**: [**TG**](https://t.me/ilovedocs/3156) | [**VK**](https://m.vkvideo.ru/playlist/-230225424_4?from=video)
 
