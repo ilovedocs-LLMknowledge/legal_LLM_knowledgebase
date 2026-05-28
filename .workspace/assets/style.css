@@ -1,0 +1,136 @@
+/* =============================================================================
+   Legal LLM Knowledge Base — тема для Gramax
+   Направление: Slate Modern · Paper-White (Direction 02)
+   Шрифт: Manrope (Google Fonts, кириллица)
+   Поддерживает обе темы: data-theme="light" и data-theme="dark"
+   ============================================================================= */
+
+/* 1. Подключение шрифта */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:ital,wght@0,300..700;1,300..700&display=swap');
+
+
+/* 2. Общие переменные (применяются к обеим темам) */
+#custom-style {
+    --app-font-famaly: 'Manrope', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+
+    /* Кастомные переменные палитры (для удобства поддержки).
+       Используются ниже при наследовании в темах. */
+    --brand-gold: #E7C455;            /* основной акцент Рунетлекс Академии */
+    --brand-burgundy: #6F0709;        /* логотип сообщества */
+}
+
+
+/* =============================================================================
+   3. Светлая тема
+   ============================================================================= */
+#custom-style[data-theme="light"] {
+
+    /* —— Главная: фон и карточки каталогов —— */
+    --color-home-bg: #FCFCFA;                    /* основной фон — тёплый near-white */
+    --color-home-card-bg: #FFFFFF;               /* карточка каталога */
+    --color-home-card-bg-hover: #FFFFFF;
+    --color-home-card-border: #E6E6E0;
+    --color-home-card-border-hover: #0C1018;     /* при наведении — глубокий ink */
+    --color-home-card-link: #0C1018;
+    --color-home-card-link-hover: #0C1018;
+    --box-shadow-home-card: 0 1px 2px rgba(20, 17, 12, 0.04);
+
+    /* —— Общие цвета приложения —— */
+    --color-primary-general: #161B25;            /* основной текст и иконки */
+    --color-primary: #0C1018;                    /* «подчёркнутый» текст */
+    --color-link: #0C1018;                       /* ссылки в тексте */
+    --color-tooltip-background: #0C1018;
+
+    /* —— Боковые панели (внутри каталога) —— */
+    --color-nav-menu-bg: #F3F3F0;                /* левая панель — на ступень глубже фона */
+    --color-right-nav-bg: #FCFCFA;               /* правая (оглавление) — равна фону */
+    --color-nav-item: #4B5364;                   /* обычный пункт меню */
+    --color-nav-item-selected: #0C1018;          /* активный пункт меню */
+
+    /* —— Строка состояния репозитория (левый нижний угол) —— */
+    --version-control-primary: #6B7280;
+
+    /* —— Статья и модальные окна —— */
+    --color-article-heading-text: #0C1018;
+    --color-article-text: #161B25;
+
+    /* —— Примечания (callout-блоки «Цитата») —— */
+    --color-admonition-quote-border: var(--brand-gold);
+    --color-admonition-quote-bg: #FBF4DC;
+    --color-admonition-text: #3B2F08;
+
+    /* —— Кнопка обычная (Default) —— */
+    --color-btn-default-bg: #FFFFFF;
+    --color-btn-default-text: #0C1018;
+    --border-btn-default: 1px solid #D4D4CE;
+    --opacity-btn-default-bg-hover: 1;
+    --color-btn-default-bg-hover: #0C1018;
+    --color-btn-default-text-hover: #FFFFFF;
+
+    /* —— Кнопка подчёркнутая (Underline) —— */
+    --color-btn-underline-text: #0C1018;
+    --font-weight-btn-underline: 500;
+    --padding-btn-underline: 0;
+    --margin-btn-underline: 0;
+    --color-btn-underline-text-hover: #0C1018;
+    --color-btn-underline-bg-hover: transparent;
+    --text-decoration-btn-underline-hover: underline;
+}
+
+
+/* =============================================================================
+   4. Тёмная тема
+   ============================================================================= */
+#custom-style[data-theme="dark"] {
+
+    /* —— Главная: фон и карточки каталогов —— */
+    --color-home-bg: #2B2B2B;                    /* мягкий тёплый charcoal */
+    --color-home-card-bg: #363636;
+    --color-home-card-bg-hover: #3D3D3D;
+    --color-home-card-border: #444444;
+    --color-home-card-border-hover: var(--brand-gold);
+    --color-home-card-link: #EFEFEF;
+    --color-home-card-link-hover: #FFFFFF;
+    --box-shadow-home-card: none;
+
+    /* —— Общие цвета приложения —— */
+    --color-primary-general: #DADADA;
+    --color-primary: #F6F6F6;
+    --color-link: var(--brand-gold);             /* в dark ссылка — золото */
+    --color-tooltip-background: #181818;
+
+    /* —— Боковые панели (внутри каталога) —— */
+    --color-nav-menu-bg: #232323;
+    --color-right-nav-bg: #2B2B2B;
+    --color-nav-item: #ADADAD;
+    --color-nav-item-selected: #FFFFFF;
+
+    /* —— Строка состояния репозитория —— */
+    --version-control-primary: #8A8A8A;
+
+    /* —— Статья и модальные окна —— */
+    --color-article-heading-text: #FFFFFF;
+    --color-article-text: #D1D1D1;
+
+    /* —— Примечания (callout-блоки «Цитата») —— */
+    --color-admonition-quote-border: var(--brand-gold);
+    --color-admonition-quote-bg: rgba(231, 196, 85, 0.08);
+    --color-admonition-text: #EFEFEF;
+
+    /* —— Кнопка обычная (Default) —— */
+    --color-btn-default-bg: #363636;
+    --color-btn-default-text: #EFEFEF;
+    --border-btn-default: 1px solid #494949;
+    --opacity-btn-default-bg-hover: 1;
+    --color-btn-default-bg-hover: var(--brand-gold);
+    --color-btn-default-text-hover: #1A1611;
+
+    /* —— Кнопка подчёркнутая (Underline) —— */
+    --color-btn-underline-text: var(--brand-gold);
+    --font-weight-btn-underline: 500;
+    --padding-btn-underline: 0;
+    --margin-btn-underline: 0;
+    --color-btn-underline-text-hover: #FFFFFF;
+    --color-btn-underline-bg-hover: transparent;
+    --text-decoration-btn-underline-hover: underline;
+}

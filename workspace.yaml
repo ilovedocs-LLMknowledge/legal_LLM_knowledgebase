@@ -9,10 +9,10 @@ enterprise:
   refreshInterval: null
 services:
   gitProxy:
-    url: https://gram.ax/git-proxy
+    url: https://develop.gram.ax/git-proxy
   auth:
     url: https://gram.ax/auth
   diagramRenderer:
-    url: https://gram.ax/diagram-renderer
+    url: https://app.gram.ax/diagram-renderer
   cloud:
     url: https://cloud.gram.ax
