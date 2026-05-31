@@ -63,6 +63,24 @@ Telegram-бот для формирования документов для ра
 <tr>
 <td>
 
+[Локальный анонимизатор](https://t.me/docsllm/70966)\
+*Александр Чебурахин*
+
+</td>
+<td>
+
+Браузерный анонимизатор на базе NER-модели: распознает и маскирует персональные данные в тексте локально, данные не передаются на сервер
+
+</td>
+<td>
+
+[Сервис](https://alexchebur.github.io/Anonymizer/)
+
+</td>
+</tr>
+<tr>
+<td>
+
 [Сервис вычитки юридических документов](https://t.me/docsllm/54180?thread=46624)\
 *Шамиль Мусин*
 
@@ -165,24 +183,6 @@ Windows-приложение (.exe): автоматически сохраняе
 <td>
 
 [Скачать](https://github.com/neyroprodelki/pdf-saver/releases/tag/v1.0)
-
-</td>
-</tr>
-<tr>
-<td>
-
-[Redacto](https://t.me/docsllm/67322)\
-*Тимур Умаров*
-
-</td>
-<td>
-
-Chrome-расширение: маскирует чувствительные данные перед отправкой в ChatGPT, Claude, Gemini и другие ИИ-сервисы
-
-</td>
-<td>
-
-[Расширение](https://chromewebstore.google.com/detail/redacto/ckepifcdlhkblfnnpdgokcjhpmjmdmpa?hl=en-US&utm_source=ext_sidebar)
 
 </td>
 </tr>
@@ -425,6 +425,24 @@ Python-скрипт: OCR-распознавание текста из PDF (в т
 <td>
 
 [Скачать](https://t.me/docsllm/46678?thread=46624)
+
+</td>
+</tr>
+<tr>
+<td>
+
+[AI Транскрибация Видео](https://t.me/docsllm/73413)\
+*Виталий Савинский*
+
+</td>
+<td>
+
+Локальный Python-скрипт транскрибации видео и аудио через LLM API; запускается на своем компьютере, данные на сторонние серверы не передаются
+
+</td>
+<td>
+
+[GitHub](https://github.com/BitaliyS/video_transcription_app_savinsky_HSE)
 
 </td>
 </tr>

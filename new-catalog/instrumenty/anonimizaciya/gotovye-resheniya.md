@@ -9,7 +9,7 @@ title: Готовые решения
 
 </note>
 
-**Дата составления:** 2026-04-19\
+**Дата составления:** 2026-05-31\
 **Статус:** ✅ Актуально
 
 ---
@@ -36,6 +36,30 @@ title: Готовые решения
 <td>
 
 **Ссылка**
+
+</td>
+</tr>
+<tr>
+<td>
+
+**Браузерный анонимайзер**\
+*Александр Чебурахин*
+
+</td>
+<td>
+
+Локальное веб-приложение
+
+</td>
+<td>
+
+Анонимизирует текст с помощью NER-модели; данные обрабатываются локально, не передаются на сервер
+
+</td>
+<td>
+
+[alexchebur.github.io/Anonymizer](https://alexchebur.github.io/Anonymizer/)\
+[Анонс в Telegram](https://t.me/docsllm/70966)
 
 </td>
 </tr>
@@ -111,29 +135,6 @@ title: Готовые решения
 <tr>
 <td>
 
-**Redacto**\
-*Тимур Умаров*
-
-</td>
-<td>
-
-Браузерное расширение
-
-</td>
-<td>
-
-Маскировка чувствительных данных для ChatGPT, Claude и других веб-интерфейсов
-
-</td>
-<td>
-
-[Chrome Web Store](https://chromewebstore.google.com/detail/redacto/ckepifcdlhkblfnnpdgokcjhpmjmdmpa)
-
-</td>
-</tr>
-<tr>
-<td>
-
 **PII-Shield**\
 *Григорий Москалев*
 
@@ -155,6 +156,12 @@ MCP-сервер и скилл для Claude Cowork и Claude Code
 </td>
 </tr>
 </table>
+
+### OpenAI Privacy Filter
+
+OpenAI выложили в open-source [Privacy Filter](https://github.com/openai/privacy-filter) -- модель на 1,5 млрд параметров под лицензией Apache 2.0, которая запускается локально на ноутбуке или сервере. Модель вырезает имена, телефоны, адреса, email, номера счетов, даты и API-ключи -- всё обрабатывается на устройстве владельца данных, наружу уходит уже обезличенный текст. 
+
+Важные оговорки: на русском языке из коробки модель распознает около двух третей персональных данных; после дообучения на локальных данных точность достигает 96%. Скачивать строго с верифицированных страниц OpenAI на Hugging Face и GitHub -- через 18 часов после релиза появился репозиторий-двойник с инфостилером, собравший 244 тысячи скачиваний.
 
 ---
 
@@ -216,6 +223,34 @@ MCP-сервер и скилл для Claude Cowork и Claude Code
 
 </td>
 </tr>
+<tr>
+<td>
+
+**Redacto**\
+*Тимур Умаров*
+
+</td>
+<td>
+
+Браузерное расширение
+
+</td>
+<td>
+
+--
+
+</td>
+<td>
+
+Маскировка чувствительных данных для ChatGPT, Claude и других веб-интерфейсов
+
+</td>
+<td>
+
+[Chrome Web Store](https://chromewebstore.google.com/detail/redacto/ckepifcdlhkblfnnpdgokcjhpmjmdmpa)
+
+</td>
+</tr>
 </table>
 
 ---
@@ -229,6 +264,12 @@ MCP-сервер и скилл для Claude Cowork и Claude Code
 -  [Claude Cowork](./../../aktualnoye/agentskiy-ii/obzor-servisov/claude-cowork) -- как подключить PII-Shield к Cowork через MCP
 
 -  [Вайб-кодинговые проекты](./../../proekty-uchastnikov/vayb-kodingovye-proekty) -- Redacto, PII-Shield и другие проекты участников сообщества
+
+## Дополнительные материалы
+
+-  [Introducing OpenAI Privacy Filter](https://openai.com/index/introducing-openai-privacy-filter/) -- официальное описание, в том числе на русском
+
+-  [Тест-драйв Privacy Filter на русских персональных данных](https://habr.com/ru/articles/1027266/) -- разбор архитектуры и результаты тестирования на русскоязычном бенчмарке
 
 ---
 
