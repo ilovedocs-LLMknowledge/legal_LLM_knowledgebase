@@ -3,58 +3,69 @@
    Направление: Slate Modern · Paper-White (Direction 02)
    Шрифт: Manrope (Google Fonts, кириллица)
    Поддерживает обе темы: data-theme="light" и data-theme="dark"
+
+   ВНИМАНИЕ: документ состоит из двух слоёв
+   • СЛОЙ 1 (разделы 1–4) — официально документированные переменные Gramax.
+     Стабильно, не сломается при обновлениях.
+   • СЛОЙ 2 (раздел 5) — CSS поверх внутренних классов Gramax (типографика,
+     активный пункт меню, цитаты, мелочи). При обновлении Gramax может
+     потребовать актуализации, если классы изменятся.
    ============================================================================= */
 
-/* 1. Подключение шрифта */
+
+/* 1. Подключение шрифтов */
 @import url('https://fonts.googleapis.com/css2?family=Manrope:ital,wght@0,300..700;1,300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 
 
 /* 2. Общие переменные (применяются к обеим темам) */
 #custom-style {
     --app-font-famaly: 'Manrope', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
 
-    /* Кастомные переменные палитры (для удобства поддержки).
-       Используются ниже при наследовании в темах. */
+    /* Кастомные переменные палитры (для удобства поддержки) */
     --brand-gold: #E7C455;            /* основной акцент Рунетлекс Академии */
     --brand-burgundy: #6F0709;        /* логотип сообщества */
+
+    /* Шрифт заголовков (используется только в слое 2) */
+    --font-serif: 'Spectral', Georgia, 'Times New Roman', serif;
 }
 
 
 /* =============================================================================
-   3. Светлая тема
+   3. Светлая тема — документированные переменные Gramax
    ============================================================================= */
 #custom-style[data-theme="light"] {
 
     /* —— Главная: фон и карточки каталогов —— */
-    --color-home-bg: #FCFCFA;                    /* основной фон — тёплый near-white */
-    --color-home-card-bg: #FFFFFF;               /* карточка каталога */
+    --color-home-bg: #FCFCFA;
+    --color-home-card-bg: #FFFFFF;
     --color-home-card-bg-hover: #FFFFFF;
     --color-home-card-border: #E6E6E0;
-    --color-home-card-border-hover: #0C1018;     /* при наведении — глубокий ink */
+    --color-home-card-border-hover: #0C1018;
     --color-home-card-link: #0C1018;
     --color-home-card-link-hover: #0C1018;
     --box-shadow-home-card: 0 1px 2px rgba(20, 17, 12, 0.04);
 
     /* —— Общие цвета приложения —— */
-    --color-primary-general: #161B25;            /* основной текст и иконки */
-    --color-primary: #0C1018;                    /* «подчёркнутый» текст */
-    --color-link: #0C1018;                       /* ссылки в тексте */
+    --color-primary-general: #161B25;
+    --color-primary: #0C1018;
+    --color-link: #6F0709;                       /* burgundy — фирменный Рунетлекса */
     --color-tooltip-background: #0C1018;
 
     /* —— Боковые панели (внутри каталога) —— */
-    --color-nav-menu-bg: #F3F3F0;                /* левая панель — на ступень глубже фона */
-    --color-right-nav-bg: #FCFCFA;               /* правая (оглавление) — равна фону */
-    --color-nav-item: #4B5364;                   /* обычный пункт меню */
-    --color-nav-item-selected: #0C1018;          /* активный пункт меню */
+    --color-nav-menu-bg: #F3F3F0;
+    --color-right-nav-bg: #FCFCFA;
+    --color-nav-item: #4B5364;
+    --color-nav-item-selected: #0C1018;
 
-    /* —— Строка состояния репозитория (левый нижний угол) —— */
+    /* —— Строка состояния репозитория —— */
     --version-control-primary: #6B7280;
 
     /* —— Статья и модальные окна —— */
     --color-article-heading-text: #0C1018;
     --color-article-text: #161B25;
 
-    /* —— Примечания (callout-блоки «Цитата») —— */
+    /* —— Примечания (блоки «Цитата») —— */
     --color-admonition-quote-border: var(--brand-gold);
     --color-admonition-quote-bg: #FBF4DC;
     --color-admonition-text: #3B2F08;
@@ -79,12 +90,12 @@
 
 
 /* =============================================================================
-   4. Тёмная тема
+   4. Тёмная тема — документированные переменные Gramax
    ============================================================================= */
 #custom-style[data-theme="dark"] {
 
     /* —— Главная: фон и карточки каталогов —— */
-    --color-home-bg: #2B2B2B;                    /* мягкий тёплый charcoal */
+    --color-home-bg: #2B2B2B;
     --color-home-card-bg: #363636;
     --color-home-card-bg-hover: #3D3D3D;
     --color-home-card-border: #444444;
@@ -96,7 +107,7 @@
     /* —— Общие цвета приложения —— */
     --color-primary-general: #DADADA;
     --color-primary: #F6F6F6;
-    --color-link: var(--brand-gold);             /* в dark ссылка — золото */
+    --color-link: var(--brand-gold);
     --color-tooltip-background: #181818;
 
     /* —— Боковые панели (внутри каталога) —— */
@@ -112,7 +123,7 @@
     --color-article-heading-text: #FFFFFF;
     --color-article-text: #D1D1D1;
 
-    /* —— Примечания (callout-блоки «Цитата») —— */
+    /* —— Примечания (блоки «Цитата») —— */
     --color-admonition-quote-border: var(--brand-gold);
     --color-admonition-quote-bg: rgba(231, 196, 85, 0.08);
     --color-admonition-text: #EFEFEF;
@@ -133,4 +144,272 @@
     --color-btn-underline-text-hover: #FFFFFF;
     --color-btn-underline-bg-hover: transparent;
     --text-decoration-btn-underline-hover: underline;
+}
+
+
+/* =============================================================================
+   5. СЛОЙ 2 — стили поверх внутренних классов Gramax
+   -----------------------------------------------------------------------------
+   Используют не-документированные селекторы. При обновлении Gramax возможны
+   поломки — тогда нужно заново инспектировать DOM и поправить селекторы.
+   Каждый блок прокомментирован: что делает и какой селектор использует.
+   ============================================================================= */
+
+
+/* —— 5.1. Заголовок статьи (H1) ————————————————————————————————————————————
+   Два контекста:
+   • Десктоп (editor): первый <p> внутри ProseMirror внутри [data-qa="article-editor"]
+   • Прод (reader): <h1 class="article-title"> или [data-qa="article-title"]
+   Шкала: 30px / Spectral 700 / line-height 1.2
+   Letter-spacing для serif мягче, чем для sans-serif (serif не любит плотного трекинга)
+*/
+:is(
+    h1.article-title,
+    [data-qa="article-title"],
+    [data-qa="article-editor"] .ProseMirror > p:first-of-type
+) {
+    font-family: var(--font-serif) !important;
+    font-size: 30px !important;
+    font-weight: 700 !important;
+    line-height: 1.2 !important;
+    letter-spacing: -0.005em !important;
+    margin-bottom: 1.2rem !important;
+}
+
+
+/* —— 5.2. Подзаголовки H2 ——————————————————————————————————————————————————
+   Шкала: 20px / Spectral 600 / line-height 1.3
+*/
+:is(
+    .ProseMirror h2,
+    .article-body h2,
+    #article h2
+) {
+    font-family: var(--font-serif) !important;
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    line-height: 1.3 !important;
+    margin-top: 2rem !important;
+    margin-bottom: 0.8rem !important;
+}
+
+
+/* —— 5.3. Подзаголовки H3 ——————————————————————————————————————————————————
+   Шкала: 16px / Spectral 600 / line-height 1.4
+*/
+:is(
+    .ProseMirror h3,
+    .article-body h3,
+    #article h3
+) {
+    font-family: var(--font-serif) !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    line-height: 1.4 !important;
+    margin-top: 1.5rem !important;
+    margin-bottom: 0.6rem !important;
+}
+
+
+/* —— 5.3.0. Подзаголовки H4–H6 ——————————————————————————————————————————
+   В шкале Typography.md не описаны, но в статьях встречаются. Делаем мельче H3,
+   но тоже Spectral, чтобы заголовки нижних уровней не выпадали в Manrope.
+*/
+:is(
+    .ProseMirror h4,
+    .article-body h4,
+    #article h4
+) {
+    font-family: var(--font-serif) !important;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    line-height: 1.4 !important;
+    margin-top: 1.2rem !important;
+    margin-bottom: 0.5rem !important;
+}
+
+:is(
+    .ProseMirror h5,
+    .article-body h5,
+    #article h5,
+    .ProseMirror h6,
+    .article-body h6,
+    #article h6
+) {
+    font-family: var(--font-serif) !important;
+    font-weight: 600 !important;
+}
+
+
+/* —— 5.3.1. Заголовки таблиц ————————————————————————————————————————————
+   Gramax использует свой синтаксис: <table header="row"> с первой строкой
+   из обычных <td> (без <th> и <thead>). Также есть header="column" — тогда
+   заголовок это первый столбец.
+   Браузер часто оборачивает <tr> в автоматический <tbody>, поэтому покрываем
+   оба пути: и прямой <tr>, и через <tbody>.
+*/
+
+/* Header row: первая строка таблицы */
+table[header="row"] > tr:first-child > td,
+table[header="row"] > tbody > tr:first-child > td {
+    font-family: var(--font-serif) !important;
+    font-weight: 600 !important;
+}
+
+/* Header column: первый столбец таблицы */
+table[header="column"] > tr > td:first-child,
+table[header="column"] > tbody > tr > td:first-child {
+    font-family: var(--font-serif) !important;
+    font-weight: 600 !important;
+}
+
+/* Обратная совместимость: стандартный Markdown через <th>/<thead> — на всякий */
+:is(.ProseMirror, .article-body, #article) :is(th, thead td) {
+    font-family: var(--font-serif) !important;
+    font-weight: 600 !important;
+}
+
+
+/* —— 5.4. Основной текст статьи ————————————————————————————————————————————
+   Gramax по дефолту красит параграфы весом 300. По нашей типографике основной
+   вес — 400. Здесь же выставляем размер 14.5px и комфортный line-height.
+*/
+:is(
+    .ProseMirror p,
+    .article-body p
+) {
+    font-size: 14.5px !important;
+    font-weight: 400 !important;
+    line-height: 1.65 !important;
+}
+
+/* Исключение: первый параграф в режиме редактора — это H1, его не трогаем */
+[data-qa="article-editor"] .ProseMirror > p:first-of-type {
+    font-weight: 700 !important;  /* возвращаем H1-вес */
+}
+
+
+/* —— 5.5. Активный пункт левого меню — золотая полоска слева ———————————————
+   На проде маркер — класс .is-active на <div> внутри пункта меню.
+   Если в десктопе класс окажется другим — добавь его сюда через запятую.
+*/
+.is-active {
+    position: relative;
+}
+
+.is-active::before {
+    content: "";
+    position: absolute;
+    left: -12px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 3px;
+    height: 70%;
+    background-color: var(--brand-gold);
+    border-radius: 2px;
+}
+
+
+/* —— 5.6. Цитаты (admonition-info → gold-стиль) ————————————————————————————
+   По решению: и info, и quote выглядят одинаково в gold-палитре.
+   Перебиваем дефолтные --color-admonition-info-bg / -br-h на наши.
+*/
+.admonition.admonition-info,
+.admonition.admonition-quote {
+    background: var(--color-admonition-quote-bg) !important;
+    border-color: var(--color-admonition-quote-border) !important;
+    color: var(--color-admonition-text) !important;
+}
+
+/* Иконка слева у admonition-info — это lucide SVG с stroke="currentColor"
+   и fill="none". Управляется через color родителя (для stroke) — поэтому
+   красим именно color на .admonition-icon, а заодно stroke на самой иконке. */
+.admonition.admonition-info .admonition-icon,
+.admonition.admonition-info .admonition-icon i,
+.admonition.admonition-info svg.lucide {
+    color: var(--brand-gold) !important;
+    stroke: var(--brand-gold) !important;
+}
+
+
+/* —— 5.6.1. Фон body и всех контейнеров в тёмной теме ——————————————————————
+   У Gramax НЕТ документированной переменной для фона body / скролл-контейнеров.
+   В тёмной теме он по дефолту синеватый. Перебиваем на charcoal #2B2B2B для
+   всех контейнеров, через которые может «проглянуть» дефолт при скролле.
+   data-testid="article-scroll-container" — главный скролл-контейнер статьи.
+*/
+html:has([data-theme="dark"]),
+#custom-style[data-theme="dark"],
+#custom-style[data-theme="dark"] #root,
+#custom-style[data-theme="dark"] .catalog-layout,
+#custom-style[data-theme="dark"] [data-testid="article-scroll-container"],
+#custom-style[data-theme="dark"] .article-content-wrapper,
+#custom-style[data-theme="dark"] #article,
+#custom-style[data-theme="dark"] .article-body,
+#custom-style[data-theme="dark"] .main-article {
+    background-color: #2B2B2B !important;
+}
+
+
+/* —— 5.7. Хлебные крошки ———————————————————————————————————————————————————
+   Не критично, но в твоём прототипе breadcrumbs мельче, серее, capsuled.
+*/
+.article-breadcrumb,
+.breadcrumb {
+    font-size: 12px !important;
+    font-weight: 500 !important;
+    letter-spacing: 0.04em !important;
+    text-transform: uppercase !important;
+    color: var(--color-primary-general) !important;
+    opacity: 0.7;
+}
+
+
+/* —— 5.8. Карточки на главной — тонкая граница вместо тени ———————————————
+   На локальном Gramax карточки не нашлись (видимо, элементы рендерятся
+   только на главной с каталогами). Селекторы — гипотетические, по конвенции
+   именования Gramax. Если после деплоя карточки не подхватят стиль —
+   проинспектируем и обновим.
+*/
+[data-catalog-card],
+[class*="catalog-card"] {
+    transition: border-color 0.15s ease, box-shadow 0.15s ease !important;
+}
+
+
+/* —— 5.9. Цвет подписи под H1 (если есть «лид-абзац») ——————————————————————
+   В прототипе под H1 идёт абзац-лид чуть крупнее основного текста.
+   Если у тебя в статьях принято делать первый абзац после H1 лидом —
+   раскомментируй и поправь под нужный размер.
+*/
+/*
+:is(.ProseMirror, .article-body) > p:first-of-type {
+    font-size: 16px !important;
+    line-height: 1.55 !important;
+}
+*/
+
+
+/* —— 5.10. Перебивка синих акцентов в тёмной теме ————————————————————————
+   У Gramax в тёмной теме hover/active/selected состояния по дефолту синие
+   (что-то вроде slate-700/800). Переводим их в gold-tint для консистентности.
+*/
+
+/* Активный пункт левого меню — мягкая золотая подложка вместо синей */
+#custom-style[data-theme="dark"] .is-active {
+    background-color: rgba(231, 196, 85, 0.08) !important;
+}
+
+/* Hover на строках/ячейках таблиц — тонкий gold-tint вместо синего */
+#custom-style[data-theme="dark"] table tr:hover,
+#custom-style[data-theme="dark"] table tr:hover > td,
+#custom-style[data-theme="dark"] table td:hover,
+#custom-style[data-theme="dark"] table tr.selected,
+#custom-style[data-theme="dark"] table tr.is-active {
+    background-color: rgba(231, 196, 85, 0.04) !important;
+}
+
+/* Граница между сайдбаром и контентом — иногда тоже синеватая */
+#custom-style[data-theme="dark"] .left-navigation-layout {
+    border-right-color: #3D3D3D !important;
 }
