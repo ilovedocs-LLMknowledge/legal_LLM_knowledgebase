@@ -9,7 +9,7 @@ title: Готовые решения
 
 </note>
 
-**Дата составления:** 2026-05-31\
+**Дата составления:** 2026-06-30\
 **Статус:** 💡 Актуально
 
 ---
@@ -155,11 +155,59 @@ MCP-сервер и скилл для Claude Cowork и Claude Code
 
 </td>
 </tr>
+<tr>
+<td>
+
+**LexAnon**\
+*Кирилл Дьяков*
+
+</td>
+<td>
+
+Chrome-расширение (локально) с автоперехватом файла перед загрузкой на любой сайт
+
+</td>
+<td>
+
+Локальное обезличивание текста и файлов до отправки в сеть. Есть опциональная локальная LLM (Ollama) для поиска сущностей, которые пропускают regex-правила 
+
+</td>
+<td>
+
+[GitHub (RU)](https://github.com/LexProTech/LexAnon)\
+[GitHub (EN)](https://github.com/LexProTech/LexAnonEN)\
+[Анонс в Telegram](https://t.me/DiakoffILL/363)
+
+</td>
+</tr>
+<tr>
+<td>
+
+**Mithril Veil**\
+*Кирилл Мурашев*
+
+</td>
+<td>
+
+Self-hosted сервис (CLI + HTTP API, Docker)
+
+</td>
+<td>
+
+Обезличивание русскоязычных текстов и документов перед отправкой в облачные LLM. Готовые пресеты, включая `legal_ru`.
+
+</td>
+<td>
+
+[GitHub](https://github.com/Kirill-Murashev/mithril-veil)
+
+</td>
+</tr>
 </table>
 
 ### OpenAI Privacy Filter
 
-OpenAI выложили в open-source [Privacy Filter](https://github.com/openai/privacy-filter) -- модель на 1,5 млрд параметров под лицензией Apache 2.0, которая запускается локально на ноутбуке или сервере. Модель вырезает имена, телефоны, адреса, email, номера счетов, даты и API-ключи -- всё обрабатывается на устройстве владельца данных, наружу уходит уже обезличенный текст. 
+OpenAI выложили в open-source [Privacy Filter](https://github.com/openai/privacy-filter) -- модель на 1,5 млрд параметров под лицензией Apache 2.0, которая запускается локально на ноутбуке или сервере. Модель вырезает имена, телефоны, адреса, email, номера счетов, даты и API-ключи -- всё обрабатывается на устройстве владельца данных, наружу уходит уже обезличенный текст.
 
 Важные оговорки: на русском языке из коробки модель распознает около двух третей персональных данных; после дообучения на локальных данных точность достигает 96%. Скачивать строго с верифицированных страниц OpenAI на Hugging Face и GitHub -- через 18 часов после релиза появился репозиторий-двойник с инфостилером, собравший 244 тысячи скачиваний.
 
@@ -177,11 +225,6 @@ OpenAI выложили в open-source [Privacy Filter](https://github.com/opena
 <td>
 
 **Формат**
-
-</td>
-<td>
-
-**Цена**
 
 </td>
 <td>
@@ -209,11 +252,6 @@ OpenAI выложили в open-source [Privacy Filter](https://github.com/opena
 </td>
 <td>
 
-По запросу
-
-</td>
-<td>
-
 Инструмент для работы с ИИ-чатботами с отсечением ПД
 
 </td>
@@ -232,22 +270,17 @@ OpenAI выложили в open-source [Privacy Filter](https://github.com/opena
 </td>
 <td>
 
-Браузерное расширение
+Браузерное расширение + надстройка для MS Word
 
 </td>
 <td>
 
---
+Расширение обрабатывает `.txt`/`.docx`/`.xlsx`/`.csv`/`.pptx` и маскирует текст в ИИ-чатах, надстройка маскирует документ `.docx` прямо в Word. Есть API для интеграций
 
 </td>
 <td>
 
-Маскировка чувствительных данных для ChatGPT, Claude и других веб-интерфейсов
-
-</td>
-<td>
-
-[Chrome Web Store](https://chromewebstore.google.com/detail/redacto/ckepifcdlhkblfnnpdgokcjhpmjmdmpa)
+[redactoapp.ru](https://redactoapp.ru)
 
 </td>
 </tr>
