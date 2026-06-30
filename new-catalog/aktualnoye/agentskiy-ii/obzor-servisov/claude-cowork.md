@@ -148,7 +148,7 @@ NotebookLM можно подключить к Cowork как инструмент
 
 -  [Кастомизация Claude](./../kastomizaciya-agentov/kastomizaciya-claude) -- подключение MCP, способы установки плагинов в Cowork, Skill Creator, Teach Claude
 
--  [Плагины от сообщества](./../kastomizaciya-agentov/plaginy-ot-soobshchestva) -- сборник плагинов Cowork от участников сообщества
+-  [Плагины и MCP сообщества](./../kastomizaciya-agentov/plaginy-ot-soobshchestva) -- сборник плагинов Cowork от участников сообщества
 
 ## Дополнительные материалы
 

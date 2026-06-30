@@ -1,41 +1,43 @@
 ---
 order: 4
-title: Плагины от сообщества
+title: Плагины и MCP сообщества
 ---
 
 <note type="info">
 
-Плагины для Claude Cowork и Code, разработанные участниками [сообщества «Нейросети | ilovedocs»](https://t.me/docsllm) под собственные юридические задачи. Если вашего плагина нет в списке, или в карточке есть ошибка -- сообщите через [форму обратной связи](https://forms.yandex.ru/u/69b94a8f95add5352028591d/).
+Плагины и MCP-коннекторы для Claude Cowork и Code, разработанные участниками [сообщества «Нейросети | ilovedocs»](https://t.me/docsllm) под собственные юридические задачи. Если вашего плагина или коннектора нет в списке, или в карточке есть ошибка -- сообщите через [форму обратной связи](https://forms.yandex.ru/u/69b94a8f95add5352028591d/).
 
 </note>
 
-**Дата составления:** 2026-05-03\
+**Дата составления:** 2026-06-30\
 **Статус:** 💡 Актуально
 
 ---
+
+## Плагины
 
 <table header="row">
 <tr>
 <td>
 
-Проект
+**Проект**
 
 </td>
 <td>
 
-Описание
+**Описание**
 
 </td>
 <td>
 
-Ссылки
+**Ссылки**
 
 </td>
 </tr>
 <tr>
 <td>
 
-[Плагин по legal design](https://t.me/ilovedocs/3289)
+[**Плагин по legal design**](https://t.me/ilovedocs/3289)
 
 *Сооснователь сообщества* [*Нейросети | ilovedocs*](https://t.me/docsllm) *Павел Мищенко*
 
@@ -54,11 +56,9 @@ title: Плагины от сообщества
 <tr>
 <td>
 
-Плагин для NotebookLM
+**Плагин для NotebookLM**
 
-
-
-*Выпускник курса курса* [*«Нейросети для юриста: от основ к системе»*](https://runetlex-academy.ru/neuralnetworks) *Алексей Мынка*
+*Выпускник курса* [*«Нейросети для юриста: от основ к системе»*](https://runetlex-academy.ru/neuralnetworks) *Алексей Мынка*
 
 </td>
 <td>
@@ -75,9 +75,28 @@ title: Плагины от сообщества
 <tr>
 <td>
 
-[Vassal-Litigator](https://litigator-viz.vercel.app)
+[**Многомодельный плагин**](https://t.me/docsllm/74603)
 
-*Спикер курса курса* [*«Нейросети для юриста: от основ к системе»*](https://runetlex-academy.ru/neuralnetworks) *Ян Стригов*
+*Спикер курса* [*«Нейросети для юриста: от основ к системе»*](https://runetlex-academy.ru/neuralnetworks) *Ян Стригов*
+
+</td>
+<td>
+
+Форк плагина Superpowers для Claude Code с разделением труда между моделями: Sonnet -- оркестратор (диспатч шагов, git), Opus -- план и ревью, Codex -- скептичное ревью плана и реализация. План создается до первой строки кода, два независимых ревью перед коммитом, возобновляемые сессии, экономия лимитов Claude
+
+</td>
+<td>
+
+[GitHub](https://github.com/strigov/superpowers-strigov-ver), [Разбор](https://strigov.pro/p/2026-04-16-superpowers-plugin/)
+
+</td>
+</tr>
+<tr>
+<td>
+
+[**Vassal-Litigator**](https://litigator-viz.vercel.app)
+
+*Спикер курса* [*«Нейросети для юриста: от основ к системе»*](https://runetlex-academy.ru/neuralnetworks) *Ян Стригов*
 
 </td>
 <td>
@@ -87,17 +106,15 @@ title: Плагины от сообщества
 </td>
 <td>
 
-[GitHub](https://github.com/strigov/vassal-litigator)
+[GitHub](https://github.com/strigov/vassal-litigator), [Разбор](https://strigov.pro/p/2026-05-10-vassal-litigator-cc-1-2/)
 
 </td>
 </tr>
 <tr>
 <td>
 
-Legal-плагин по российскому праву
-
-\
-*Выпускник курса курса* [*«Нейросети для юриста: от основ к системе»*](https://runetlex-academy.ru/neuralnetworks) *Алексей Мынка*
+**Legal-плагин по российскому праву**\
+*Выпускник курса* [*«Нейросети для юриста: от основ к системе»*](https://runetlex-academy.ru/neuralnetworks) *Алексей Мынка*
 
 </td>
 <td>
@@ -108,6 +125,87 @@ Legal-плагин по российскому праву
 <td>
 
 [legal-local plugin.zip](<legal-local plugin.zip>)
+
+</td>
+</tr>
+<tr>
+<td>
+
+[**legal-brief**](https://t.me/docsllm/76262)
+
+*Участник сообщества* [*Нейросети | ilovedocs*](https://t.me/docsllm) *Иван Кундиль*
+
+</td>
+<td>
+
+Юридический форк плагинов Superpowers (obra / Jesse Vincent) и superpowers-strigov-ver под судебную работу: мульти-агентный конвейер «одна модель предлагает, другая критикует, сборка в единую позицию». На выходе -- черновик позиции и файл со списком использованных норм и практики с проверкой, что ссылки открываются (актуальность проверяется вручную).
+
+</td>
+<td>
+
+[GitHub](https://github.com/KunDeal/legal-brief)
+
+</td>
+</tr>
+</table>
+
+## MCP-коннекторы
+
+<table header="row">
+<tr>
+<td>
+
+**Коннектор**
+
+</td>
+<td>
+
+**Описание**
+
+</td>
+<td>
+
+**Ссылки**
+
+</td>
+</tr>
+<tr>
+<td>
+
+[**Коннектор к практике ФАС**](https://blog.delay-rag.ru/mcp-konniektor-k-poisku-po-praktikie-fas)
+
+*Спикер курса* [*«Нейросети для юриста: от основ к системе»*](https://runetlex-academy.ru/neuralnetworks) *Екатерина Якуненко*
+
+</td>
+<td>
+
+MCP поверх [поискового сервиса](https://search.delay-rag.ru/) по практике ФАС (\~8 тыс. решений о нарушениях ФЗ «О рекламе»). Дает агенту три инструмента (поиск дел с фильтрами, карточка дела, список фильтров) и три слеш-команды; ответы опираются на реальную практику со ссылками. Подключение по одному URL, без авторизации, работает в Claude (включая Free), Cursor, Codex
+
+</td>
+<td>
+
+URL: `https://dataset-interface.onrender.com/mcp/`
+
+[Документация](https://blog.delay-rag.ru/mcp-konniektor-k-poisku-po-praktikie-fas/)
+
+</td>
+</tr>
+<tr>
+<td>
+
+**Коннектор к Судакту**
+
+*Выпускник курса* [*«Нейросети для юриста: от основ к системе»*](https://runetlex-academy.ru/neuralnetworks) *Алексей Мынка*
+
+</td>
+<td>
+
+MCP-коннектор со скиллом к Судакту для поиска судебной практики: статистика и выборка по точечным запросам, кликабельные ссылки на дела. Работает в Claude Code (с кодом), не в Cowork
+
+</td>
+<td>
+
+[GitHub](https://github.com/mynka999/sudact-mcp-server)
 
 </td>
 </tr>

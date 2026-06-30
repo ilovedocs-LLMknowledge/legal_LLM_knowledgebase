@@ -198,7 +198,7 @@ MCP-коннектор для поиска практики на Судакте;
 
 -  [Скиллы и плагины](./../../aktualnoye/agentskiy-ii/kastomizaciya-agentov/skills-i-plaginy) -- из чего собирают собственные инструменты для Claude
 
--  [Плагины от сообщества](./../../aktualnoye/agentskiy-ii/kastomizaciya-agentov/plaginy-ot-soobshchestva) -- готовые плагины и подход к их сборке
+-  [Плагины и MCP сообщества](./../../aktualnoye/agentskiy-ii/kastomizaciya-agentov/plaginy-ot-soobshchestva) -- готовые плагины и подход к их сборке
 
 -  [Вайб-кодинговые проекты](./../../proekty-uchastnikov/vayb-kodingovye-proekty) -- собранные участниками сервисы и скрипты
 

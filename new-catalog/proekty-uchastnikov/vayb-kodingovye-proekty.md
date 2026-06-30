@@ -1,4 +1,5 @@
 ---
+order: 1
 title: Вайб-кодинговые проекты
 ---
 
@@ -165,6 +166,24 @@ Windows-приложение: анализ договоров через ИИ с
 <td>
 
 [Скачать](https://t.me/docsllm/46641)
+
+</td>
+</tr>
+<tr>
+<td>
+
+[LexAnon](https://t.me/DiakoffILL/363)\
+*Кирилл Дьяков*
+
+</td>
+<td>
+
+Chrome-расширение: локально обезличивает данные перед отправкой в ИИ. 17 категорий, 3 режима замены, автоперехват файлов, опционально локальная LLM (Ollama)
+
+</td>
+<td>
+
+[GitHub](https://github.com/LexProTech/LexAnon), [Видео](https://t.me/DiakoffILL/350)
 
 </td>
 </tr>
@@ -555,6 +574,24 @@ Python-скрипт: OCR-распознавание текста из PDF (в т
 <td>
 
 [Шаблон](https://docs.google.com/spreadsheets/d/1nYrEovAEuHt3KjECC-6t5i6Xry7bNfP-204Sn_Q-bQE/copy)
+
+</td>
+</tr>
+<tr>
+<td>
+
+Court Flow\
+*Даниил Бухарин*
+
+</td>
+<td>
+
+Telegram-бот по данным schedule.arbitr.ru: сообщает, какое дело слушается в выбранном зале суда, и уведомляет о переходе к следующему
+
+</td>
+<td>
+
+[Бот](https://t.me/schedule_arbitr_bot)
 
 </td>
 </tr>
