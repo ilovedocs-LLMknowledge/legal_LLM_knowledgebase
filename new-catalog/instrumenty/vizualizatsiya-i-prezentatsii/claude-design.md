@@ -114,7 +114,7 @@ Claude Design умеет упаковать это в **скилл**: компа
 
 ## Дополнительные материалы
 
--  Вебинар сообщества [Нейросети | ilovedocs](https://t.me/docsllm) «Как работать с Claude Design» (21.05.2026) [**— смотреть VK**](https://vkvideo.ru/video-230225424_456239062)
+-  Вебинар «*Как работать в Клод дизайн — опыт участников сообщества ilovedocs*» (21.05.2026): [запись](https://vkvideo.ru/video-230225424_456239062) · [презентации](https://drive.google.com/file/d/16kV_f5n10zhI-vbBlAttVNLhMHBkAUiH/view) -- Ян Стригов и Максим Шедогубов о практике работы с Claude Design
 
 -  [Анонс Claude Design от Anthropic Labs](https://www.anthropic.com/news/claude-design-anthropic-labs) -- официальное описание возможностей и ограничений
 

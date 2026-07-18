@@ -78,6 +78,8 @@ title: Готовые решения и проекты с RAG
 
 ## Дополнительные материалы
 
+-  Вебинар «*NotebookLM для юриста: основы RAG*» (15.07.2026): [запись](https://kinescope.io/tQAfjgDFfgYcKooqoVGKb5) · [презентации](https://drive.google.com/file/d/1Q9v-ZVb3adsqhMAXO_77cpRC0DRW0k_H/view) -- разбор NotebookLM как готового решения и кейс подготовки обзора судебной практики
+
 -  [OpenAI — File Search](https://platform.openai.com/docs/guides/tools-file-search) -- официальная документация по инструменту File Search в OpenAI
 
 -  [Google — File Search (Gemini API)](https://ai.google.dev/gemini-api/docs/file-search) -- официальная документация по инструменту File Search в Gemini API

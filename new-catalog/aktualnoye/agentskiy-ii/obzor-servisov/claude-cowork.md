@@ -152,6 +152,10 @@ NotebookLM можно подключить к Cowork как инструмент
 
 ## Дополнительные материалы
 
+-  Вебинар «*От чата к агенту: новый уровень работы с ИИ для юристов*» (12.03.2026): [запись](https://kinescope.io/rNhdkPy4D2yUh3w9hLvDb7) · [презентации](https://drive.google.com/file/d/1H-uZRP5MdrqijsqoH2SiYj2qjXKwr-5G/view) -- Павел Мищенко об агентах на примере Claude Cowork
+
+-  Вебинар «*Открытый вебинар по Claude Cowork*» (23.04.2026): [запись](https://kinescope.io/0AqYfaixzN27qiHAYXHwzM) · [презентации](https://drive.google.com/file/d/1a-N49CWL-J5ztwYaO0icR7yMeStp3C6E/view) -- Семен Мошкин и Ян Стригов делятся скиллами для наведения порядка в папках
+
 -  [Практический туториал по Cowork](https://www.datacamp.com/tutorial/claude-cowork-tutorial)
 
 -  [Руководство по работе с Cowork на русском языке](https://t.me/prompt_design/1967)

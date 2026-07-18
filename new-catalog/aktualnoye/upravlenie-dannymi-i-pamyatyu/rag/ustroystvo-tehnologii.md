@@ -90,6 +90,8 @@ title: Устройство технологии
 
 ## Дополнительные материалы
 
+-  Вебинар «*NotebookLM для юриста: основы RAG*» (15.07.2026): [запись](https://kinescope.io/tQAfjgDFfgYcKooqoVGKb5) · [презентации](https://drive.google.com/file/d/1Q9v-ZVb3adsqhMAXO_77cpRC0DRW0k_H/view) -- Степан Леонтьев об основах технологии RAG и принципах ее работы
+
 -  [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401) -- оригинальная статья, в которой термин RAG представили на NeurIPS 2020
 
 -  [Блог «Делай RAG»](https://blog.delay-rag.ru/tag/rag/) -- авторские материалы о RAG-технологии в юридическом домене: от установочных постов до подробных лонгридов для разного уровня подготовленности
