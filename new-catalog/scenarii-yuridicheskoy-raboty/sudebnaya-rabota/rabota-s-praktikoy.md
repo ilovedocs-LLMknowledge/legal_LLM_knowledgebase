@@ -70,7 +70,7 @@ title: Работа с судебной практикой
 
 -  **Саммаризировать отобранное сильной моделью** и собрать результат в один файл, получив рабочую подборку под дело.
 
-О том, как устроен агент-оркестратор и субагенты, -- в статье [Claude Cowork](./../../aktualnoye/agentskiy-ii/obzor-servisov/claude-cowork).
+О том, как устроен агент-оркестратор и субагенты, -- в статье [Управление агентами](./../../aktualnoye/agentskiy-ii/upravlenie-agentami).
 
 ---
 
@@ -116,7 +116,7 @@ title: Работа с судебной практикой
 
 -  [RAG](./../../aktualnoye/upravlenie-dannymi-i-pamyatyu/rag/_index) -- как собрать свою базу из отобранных актов
 
--  [Claude Cowork](./../../aktualnoye/agentskiy-ii/obzor-servisov/claude-cowork) -- агент-оркестратор для анализа массива
+-  [Управление агентами](./../../aktualnoye/agentskiy-ii/upravlenie-agentami) -- оркестрация субагентов для анализа массива
 
 -  [Промптинг](./../../znakomstvo-s-nejrosetyami/prompting) -- приемы формулировки запросов к модели
 
