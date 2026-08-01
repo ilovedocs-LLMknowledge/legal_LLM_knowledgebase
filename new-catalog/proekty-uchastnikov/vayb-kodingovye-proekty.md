@@ -46,18 +46,18 @@ MCP-сервер и скилл для Claude: локально обезличи�
 <tr>
 <td>
 
-Бот-развод\
-*Евгений Графкин*
+[Береста.ИИ](https://t.me/docsllm/78298)\
+*Александр Белоглазов*
 
 </td>
 <td>
 
-Telegram-бот для формирования документов для расторжения брака по шаблонам
+Локальное приложение: распознает сканы, делит общий PDF на отдельные документы, переименовывает файлы по содержанию, конвертирует в `.docx` и `.md`
 
 </td>
 <td>
 
-[Бот](https://t.me/botRazvodbot)
+[Анонс](https://t.me/pro_servitude/57), [GitHub](https://github.com/Kadmeia/Beresta)
 
 </td>
 </tr>
@@ -598,6 +598,24 @@ Telegram-бот по данным schedule.arbitr.ru: сообщает, како
 <tr>
 <td>
 
+[Monkey KAD](https://t.me/docsllm/77955)\
+*John Galt*
+
+</td>
+<td>
+
+Расширение для браузера: подставляет сохраненные реквизиты участников в формы «Мой Арбитр» и загружает приложения пачкой
+
+</td>
+<td>
+
+[Сайт](https://s1-automation.ru/monkey-kad/#profiles)
+
+</td>
+</tr>
+<tr>
+<td>
+
 MosCourtBot -- табло заседаний арбитражных судов\
 *Дмитрий Пось*
 
@@ -656,18 +674,18 @@ Telegram-бот: расшифровывает аудио с диаризацие
 <tr>
 <td>
 
-[Content Carousel](https://t.me/docsllm/62426)\
-*Фаррух Мамедов*
+[Утилита постобработки диктовки в Codex](https://t.me/docsllm/79854)\
+*Олег Блинов*
 
 </td>
 <td>
 
-Автоматически разбивает текст поста на красивые карточки для соцсетей
+Перехватывает надиктованный текст до вставки и прогоняет через LLM: сырая речь превращается в связный письменный текст
 
 </td>
 <td>
 
-[Сервис](https://content-carousel-production.up.railway.app/)
+[Инструкция](https://t.me/docsllm/79870)
 
 </td>
 </tr>
@@ -762,6 +780,24 @@ RAG-бот на Gemini для тренировки менеджеров: реа�
 <td>
 
 [Игра](https://alexchebur.github.io/heatclicker/), [RuStore](https://www.rustore.ru/catalog/app/com.onetrilliontec.alexchebur)
+
+</td>
+</tr>
+<tr>
+<td>
+
+[Игра speshivsud.ru](https://t.me/docsllm/78664)\
+*Мурат Мазуков*
+
+</td>
+<td>
+
+Аркада про юриста, опаздывающего на заседание: три уровня с боссами, играть можно в браузере и с телефона
+
+</td>
+<td>
+
+[Игра](https://speshivsud.ru/)
 
 </td>
 </tr>
