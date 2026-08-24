@@ -9,7 +9,7 @@ title: Как выбирать LLM
 
 </note>
 
-**Дата составления:** 2026-05-17\
+**Дата составления:** 2026-08-24\
 **Статус:** 💡 Актуально
 
 ---
@@ -72,7 +72,7 @@ title: Как выбирать LLM
 
 -  [Оплата и доступ из России](./../oplata-i-dostup) -- способы подключения и оплаты подписок
 
--  [Claude Cowork](./../../aktualnoye/agentskiy-ii/obzor-servisov/claude-cowork) -- агентный десктоп-клиент для работы с файлами
+-  [Claude Cowork](./../../aktualnoye/agentskiy-ii/obzor-servisov/claude-cowork) -- агентный режим Claude для работы с файлами и документами
 
 ## Дополнительные материалы
 
