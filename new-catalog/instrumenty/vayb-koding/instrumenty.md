@@ -208,7 +208,7 @@ title: Инструменты
 
 -  [Что такое агентный ИИ](./../../aktualnoye/agentskiy-ii/chto-takoe-agentskiy-ii) -- как агент выполняет задачи самостоятельно, без участия пользователя на каждом шаге
 
--  [Обзор инструментов](./../../aktualnoye/agentskiy-ii/obzor-servisov/_index) -- OpenClaw, Claude Cowork, Perplexity Computer и кейсы из юридической практики
+-  [Агентные инструменты](./../../aktualnoye/agentskiy-ii/obzor-servisov/_index) -- Hermes, Claude Cowork, Perplexity Computer и кейсы из юридической практики
 
 ## Дополнительные материалы
 
