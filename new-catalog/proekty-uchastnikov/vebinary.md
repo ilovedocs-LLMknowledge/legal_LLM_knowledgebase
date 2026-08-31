@@ -1,9 +1,9 @@
 ---
 order: 3
-title: Вебинары
+title: Вебинары Сообщества
 ---
 
-На открытых вебинарах участники [сообщества Нейросети | ilovedocs](https://t.me/docsllm) и команда [Рунетлекс Академии](https://runetlex-academy.ru) разбирают самые актуальные темы применения нейросетей в юридической работе и открыто делятся практическим опытом -- конкретными кейсами, инструментами и рабочими сценариями. 
+На открытых вебинарах участники [сообщества Нейросети | ilovedocs](https://t.me/docsllm) и команда [Рунетлекс Академии](https://runetlex-academy.ru) разбирают самые актуальные темы применения нейросетей в юридической работе и открыто делятся практическим опытом -- конкретными кейсами, инструментами и рабочими сценариями.
 
 <table header="row">
 <tr>
@@ -20,6 +20,50 @@ title: Вебинары
 <td>
 
 **Ссылки**
+
+</td>
+</tr>
+<tr>
+<td>
+
+**Оркестрация ИИ и мультиагентная работа**\
+12\.08.2026
+
+</td>
+<td>
+
+Максим Шедогубов, [Ян Стригов](https://t.me/strigovs), [Степан Леонтьев](https://t.me/law_exe)
+
+</td>
+<td>
+
+[Запись](https://kinescope.io/nHLFdB163653yamVrb6VWx)
+
+
+
+[Статья об оркестрации и субагентах](./../aktualnoye/agentskiy-ii/upravlenie-agentami/orkestraciya-i-subagenty)
+
+</td>
+</tr>
+<tr>
+<td>
+
+**Темная лошадка нейросетей: разбираемся с ZCode от z.ai**\
+29\.07.2026
+
+</td>
+<td>
+
+[Степан Леонтьев](https://t.me/law_exe), [Николай Божков](https://t.me/jur_perevod)
+
+</td>
+<td>
+
+[Запись](https://kinescope.io/tsSAaaECD8Y1rtwbkPF7tn) · [Презентации](https://drive.google.com/drive/folders/1kd97AXaEmK3_bp88CfUzZJJITOpg38S7)
+
+
+
+[Статья о харнессах](./../aktualnoye/agentskiy-ii/upravlenie-agentami/harness)
 
 </td>
 </tr>
@@ -77,7 +121,7 @@ title: Вебинары
 </td>
 <td>
 
-[Запись](https://kinescope.io/9ccSiTGVc4jZA1SgsNJxW1) · [Презентации](https://drive.google.com/drive/folders/1Y3VcTE-w9dleP_sIGdc8iFDX8nT7k-9I) 
+[Запись](https://kinescope.io/9ccSiTGVc4jZA1SgsNJxW1) · [Презентации](https://drive.google.com/drive/folders/1Y3VcTE-w9dleP_sIGdc8iFDX8nT7k-9I)
 
 
 
@@ -139,7 +183,7 @@ title: Вебинары
 </td>
 <td>
 
-[Запись](https://vkvideo.ru/video-230225424_456239062) · [Презентации](https://drive.google.com/file/d/16kV_f5n10zhI-vbBlAttVNLhMHBkAUiH/view) 
+[Запись](https://vkvideo.ru/video-230225424_456239062) · [Презентации](https://drive.google.com/file/d/16kV_f5n10zhI-vbBlAttVNLhMHBkAUiH/view)
 
 
 
@@ -161,7 +205,7 @@ title: Вебинары
 </td>
 <td>
 
-[Запись](https://kinescope.io/tjMUfyeaMnFiFJ84gLAs5h) · [Презентации](https://drive.google.com/drive/folders/1N_qD13qIK6qC6337X_j79G067Ch7SkHZ) 
+[Запись](https://kinescope.io/tjMUfyeaMnFiFJ84gLAs5h) · [Презентации](https://drive.google.com/drive/folders/1N_qD13qIK6qC6337X_j79G067Ch7SkHZ)
 
 
 
@@ -183,7 +227,7 @@ title: Вебинары
 </td>
 <td>
 
-[Запись](https://kinescope.io/0AqYfaixzN27qiHAYXHwzM) · [Презентации](https://drive.google.com/file/d/1a-N49CWL-J5ztwYaO0icR7yMeStp3C6E/view) 
+[Запись](https://kinescope.io/0AqYfaixzN27qiHAYXHwzM) · [Презентации](https://drive.google.com/file/d/1a-N49CWL-J5ztwYaO0icR7yMeStp3C6E/view)
 
 
 
@@ -205,7 +249,7 @@ title: Вебинары
 </td>
 <td>
 
-[Запись](https://kinescope.io/rNhdkPy4D2yUh3w9hLvDb7) · [Презентации](https://drive.google.com/file/d/1H-uZRP5MdrqijsqoH2SiYj2qjXKwr-5G/view) 
+[Запись](https://kinescope.io/rNhdkPy4D2yUh3w9hLvDb7) · [Презентации](https://drive.google.com/file/d/1H-uZRP5MdrqijsqoH2SiYj2qjXKwr-5G/view)
 
 
 
