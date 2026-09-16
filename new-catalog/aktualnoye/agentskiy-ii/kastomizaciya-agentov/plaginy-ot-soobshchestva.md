@@ -261,6 +261,8 @@ MCP-сервер к [NotebookLM](./../../../instrumenty/specializirovannye-ii-se
 
 -  [Claude Cowork](./../obzor-servisov/claude-cowork) -- основной интерфейс, в котором используются плагины
 
+-  [MCP-коннектор к Базе](./../../../razvitie-bazy-znanii/mcp-konnektor) -- коннектор к самой Базе знаний: что умеет и как подключить
+
 -  [Как внести вклад в Базу знаний](./../../../razvitie-bazy-znanii/kak-vnosit-vklad) -- предложить свой плагин в этот сборник или правку к карточке
 
 ---
