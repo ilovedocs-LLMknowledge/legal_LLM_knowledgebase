@@ -72,7 +72,7 @@ title: Визуализация с ИИ
 
 -  [Claude Design](./claude-design) -- дизайн-система для сайтов, презентаций и документов в едином фирменном стиле, с пайплайном Markdown -> `.docx`/`.pdf` и скиллами
 
--  [Специализированные сервисы](./spec-servisy-i-diagrammy) -- NotebookLM; Gamma, Napkin, Draw.io, MindMeister и другие; Mermaid и PlantUML
+-  [Специализированные сервисы](./spec-servisy-i-diagrammy) -- Gemini Notebook (NotebookLM); Gamma, Napkin, Draw.io, MindMeister и другие; Mermaid и PlantUML
 
 ---
 

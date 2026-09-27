@@ -205,6 +205,24 @@ Windows-приложение (.exe): автоматически сохраняе
 
 </td>
 </tr>
+<tr>
+<td>
+
+[Plain](https://t.me/docsllm/85868)\
+*Григорий Москалев*
+
+</td>
+<td>
+
+Бесплатный Markdown-редактор для Windows и macOS: Mermaid, KaTeX, поиск и теги по папке, история версий
+
+</td>
+<td>
+
+[GitHub](https://github.com/gregmos/plain), [Скачать](https://github.com/gregmos/plain/releases)
+
+</td>
+</tr>
 </table>
 
 ## Поиск и консультирующие сервисы
@@ -308,30 +326,12 @@ RAG-бот проверяет рекламные креативы на соот�
 </td>
 <td>
 
-MCP-сервер для подключения базы российского законодательства к ИИ-ассистентам
+Собирает законодательство РФ с официальных порталов, хранит в своей базе и отдает ИИ-ассистентам через MCP
 
 </td>
 <td>
 
 [GitHub](https://github.com/mikhashev/law7)
-
-</td>
-</tr>
-<tr>
-<td>
-
-[RAG-бот по IP и авторскому праву](https://t.me/docsllm/60661)\
-*Иван Кундиль*
-
-</td>
-<td>
-
-Считает вилку компенсации за нарушение прав на РИД по 850+ решений СИП (2024–2026)
-
-</td>
-<td>
-
-[Бот](https://t.me/GetINNinfo_bot)
 
 </td>
 </tr>
@@ -390,6 +390,42 @@ Java-программа: вычисляет даты окончания срок
 <td>
 
 [Скачать](https://t.me/docsllm/54061?thread=46624)
+
+</td>
+</tr>
+<tr>
+<td>
+
+[Конвертер в Markdown для macOS](https://t.me/docsllm/86457)\
+*Ян Стригов*
+
+</td>
+<td>
+
+Пункт в контекстном меню Finder: локально конвертирует документы и папки в Markdown, OCR опционально
+
+</td>
+<td>
+
+[GitHub](https://github.com/strigov/anydoc-md-converter)
+
+</td>
+</tr>
+<tr>
+<td>
+
+[Конвертер в Markdown для Windows](https://t.me/docsllm/86524)\
+*Damien Amadeo*
+
+</td>
+<td>
+
+Пункт в контекстном меню проводника: конвертирует PDF, офисные файлы, HTML и EPUB в Markdown, для сканов -- режим с OCR
+
+</td>
+<td>
+
+[GitHub](https://github.com/mourmouration/convert-to-md-context-menu)
 
 </td>
 </tr>
@@ -646,6 +682,24 @@ Telegram-бот: показывает расписание заседаний п
 <td>
 
 [Бот](https://t.me/MosCourtBot)
+
+</td>
+</tr>
+<tr>
+<td>
+
+[sou_watch](https://t.me/docsllm/88418)\
+*Тимур Умаров*
+
+</td>
+<td>
+
+Python-прототип: следит за карточками дел СОЮ (sudrf.ru, mos-gorsud.ru) и сообщает о заседаниях, переносах, актах
+
+</td>
+<td>
+
+[Скачать](https://t.me/docsllm/88418)
 
 </td>
 </tr>

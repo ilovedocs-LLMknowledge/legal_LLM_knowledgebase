@@ -85,7 +85,7 @@ Anthropic ведет официальный [маркетплейс плагин
 
 -  [MCP-серверы](./mcp) -- что такое MCP и как он устроен
 
--  [Claude Cowork](./../obzor-servisov/claude-cowork) -- основная среда работы с плагинами и кейс с NotebookLM
+-  [Claude Cowork](./../obzor-servisov/claude-cowork) -- основная среда работы с плагинами и кейс с Gemini Notebook (NotebookLM)
 
 ## Дополнительные материалы
 

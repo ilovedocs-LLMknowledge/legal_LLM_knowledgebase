@@ -22,7 +22,7 @@ title: Готовые решения и проекты с RAG
 
 Универсальные сервисы, куда вы приносите собственную базу знаний.
 
--  [**NotebookLM**](https://notebooklm.google.com) (Google) -- загружаете документы, ссылки и заметки, сервис строит из них RAG на эмбеддингах Google (Gemini) и отвечает со ссылками на первоисточники, а также делает презентации (с экспортом в PPTX) и аудиоподкасты;
+-  [**Gemini Notebook (NotebookLM)**](https://notebooklm.google.com) (Google) -- загружаете документы, ссылки и заметки, сервис строит из них RAG на эмбеддингах Google (Gemini) и отвечает со ссылками на первоисточники, а также делает презентации (с экспортом в PPTX) и аудиоподкасты;
 
 -  **Claude Projects** (Anthropic) -- в проект загружается база знаний (документы, текст, код); когда ее объем превышает контекстное окно, Claude автоматически переключается в RAG-режим и подтягивает только релевантные фрагменты. Доступно на платных тарифах, включается без настройки;
 
@@ -72,13 +72,13 @@ title: Готовые решения и проекты с RAG
 
 -  [Устройство технологии](./ustroystvo-tehnologii) -- как RAG работает внутри: пайплайн, эмбеддинги, чанкинг и ограничения
 
--  [MCP-серверы](./../../agentskiy-ii/kastomizaciya-agentov/mcp) -- как подключить базу знаний (например, NotebookLM) к агенту
+-  [MCP-серверы](./../../agentskiy-ii/kastomizaciya-agentov/mcp) -- как подключить базу знаний (например, Gemini Notebook) к агенту
 
 -  [Вайб-кодинговые проекты](./../../../proekty-uchastnikov/vayb-kodingovye-proekty) -- RAG-боты и другие инструменты, собранные участниками сообщества
 
 ## Дополнительные материалы
 
--  Вебинар «*NotebookLM для юриста: основы RAG*» (15.07.2026): [запись](https://kinescope.io/tQAfjgDFfgYcKooqoVGKb5) · [презентации](https://drive.google.com/file/d/1Q9v-ZVb3adsqhMAXO_77cpRC0DRW0k_H/view) -- разбор NotebookLM как готового решения и кейс подготовки обзора судебной практики
+-  Вебинар «*NotebookLM для юриста: основы RAG*» (15.07.2026): [запись](https://kinescope.io/tQAfjgDFfgYcKooqoVGKb5) · [презентации](https://drive.google.com/file/d/1Q9v-ZVb3adsqhMAXO_77cpRC0DRW0k_H/view) -- разбор Gemini Notebook как готового решения и кейс подготовки обзора судебной практики
 
 -  [OpenAI — File Search](https://platform.openai.com/docs/guides/tools-file-search) -- официальная документация по инструменту File Search в OpenAI
 

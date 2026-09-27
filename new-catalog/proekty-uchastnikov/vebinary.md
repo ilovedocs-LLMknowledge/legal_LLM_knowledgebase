@@ -26,6 +26,46 @@ title: Вебинары Сообщества
 <tr>
 <td>
 
+**Как юристу использовать ИИ-агентов в своих задачах**\
+17\.09.2026
+
+</td>
+<td>
+
+[Павел Мищенко](https://t.me/ilovedocs), Евгений Вихров
+
+</td>
+<td>
+
+[Запись](https://kinescope.io/5LTFLuTsRsvVNDDQsPotpH)
+
+[Статья об агентном ИИ](./../aktualnoye/agentskiy-ii/chto-takoe-agentskiy-ii)
+
+</td>
+</tr>
+<tr>
+<td>
+
+**Perplexity для работы: что попробовать**\
+02\.09.2026
+
+</td>
+<td>
+
+[Степан Леонтьев](https://t.me/law_exe), [Евдокия Шматина](https://t.me/evdokia_arch)
+
+</td>
+<td>
+
+[Запись](https://kinescope.io/uSkbHBBrLyGY5Mneqw6cw2) · [Презентации](https://drive.google.com/file/d/1rm657syo1BKW0biP441ZnX-2VhVW1aws/view)
+
+[Статья о Perplexity](./../instrumenty/specializirovannye-ii-servisy/perplexity)
+
+</td>
+</tr>
+<tr>
+<td>
+
 **Оркестрация ИИ и мультиагентная работа**\
 12\.08.2026
 
@@ -38,8 +78,6 @@ title: Вебинары Сообщества
 <td>
 
 [Запись](https://kinescope.io/nHLFdB163653yamVrb6VWx)
-
-
 
 [Статья об оркестрации и субагентах](./../aktualnoye/agentskiy-ii/upravlenie-agentami/orkestraciya-i-subagenty)
 
@@ -61,8 +99,6 @@ title: Вебинары Сообщества
 
 [Запись](https://kinescope.io/tsSAaaECD8Y1rtwbkPF7tn) · [Презентации](https://drive.google.com/drive/folders/1kd97AXaEmK3_bp88CfUzZJJITOpg38S7)
 
-
-
 [Статья о харнессах](./../aktualnoye/agentskiy-ii/upravlenie-agentami/harness)
 
 </td>
@@ -83,9 +119,7 @@ title: Вебинары Сообщества
 
 [Запись](https://kinescope.io/tQAfjgDFfgYcKooqoVGKb5) · [Презентации](https://drive.google.com/file/d/1Q9v-ZVb3adsqhMAXO_77cpRC0DRW0k_H/view)
 
-
-
-[Статья о NotebookLM](./../instrumenty/specializirovannye-ii-servisy/notebooklm)
+[Статья о Gemini Notebook (NotebookLM)](./../instrumenty/specializirovannye-ii-servisy/notebooklm)
 
 </td>
 </tr>
@@ -122,8 +156,6 @@ title: Вебинары Сообщества
 <td>
 
 [Запись](https://kinescope.io/9ccSiTGVc4jZA1SgsNJxW1) · [Презентации](https://drive.google.com/drive/folders/1Y3VcTE-w9dleP_sIGdc8iFDX8nT7k-9I)
-
-
 
 [Статья о работе с судебной практикой](./../scenarii-yuridicheskoy-raboty/sudebnaya-rabota/rabota-s-praktikoy)
 
@@ -163,8 +195,6 @@ title: Вебинары Сообщества
 
 [Запись](https://vk.com/video-230225424_456239061) · [Презентации](https://drive.google.com/drive/folders/1NcBWPF5RnvFSTf30ZChoWACabXG68Zzp)
 
-
-
 [Статья о судебной работе](./../scenarii-yuridicheskoy-raboty/sudebnaya-rabota/_index)
 
 </td>
@@ -184,8 +214,6 @@ title: Вебинары Сообщества
 <td>
 
 [Запись](https://vkvideo.ru/video-230225424_456239062) · [Презентации](https://drive.google.com/file/d/16kV_f5n10zhI-vbBlAttVNLhMHBkAUiH/view)
-
-
 
 [Статья о Claude Design](./../instrumenty/vizualizatsiya-i-prezentatsii/claude-design)
 
@@ -207,8 +235,6 @@ title: Вебинары Сообщества
 
 [Запись](https://kinescope.io/tjMUfyeaMnFiFJ84gLAs5h) · [Презентации](https://drive.google.com/drive/folders/1N_qD13qIK6qC6337X_j79G067Ch7SkHZ)
 
-
-
 [Статья об агентном ИИ](./../aktualnoye/agentskiy-ii/chto-takoe-agentskiy-ii)
 
 </td>
@@ -229,8 +255,6 @@ title: Вебинары Сообщества
 
 [Запись](https://kinescope.io/0AqYfaixzN27qiHAYXHwzM) · [Презентации](https://drive.google.com/file/d/1a-N49CWL-J5ztwYaO0icR7yMeStp3C6E/view)
 
-
-
 [Статья о Claude Cowork](./../aktualnoye/agentskiy-ii/obzor-servisov/claude-cowork)
 
 </td>
@@ -250,8 +274,6 @@ title: Вебинары Сообщества
 <td>
 
 [Запись](https://kinescope.io/rNhdkPy4D2yUh3w9hLvDb7) · [Презентации](https://drive.google.com/file/d/1H-uZRP5MdrqijsqoH2SiYj2qjXKwr-5G/view)
-
-
 
 [Статья о Claude Cowork](./../aktualnoye/agentskiy-ii/obzor-servisov/claude-cowork)
 

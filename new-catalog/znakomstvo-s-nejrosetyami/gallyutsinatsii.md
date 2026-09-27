@@ -36,7 +36,7 @@ title: Ограничения технологии и галлюцинации
 
 -  Использовать режим поиска в Интернете — модель проверяет факты по актуальным источникам.
 
--  Технология [**RAG**](../aktualnoye/upravlenie-dannymi-i-pamyatyu/rag) (Retrieval-Augmented Generation) — нейросеть отвечает на основе конкретного хранилища документов. Доступный пример — сервис [NotebookLM](./../instrumenty/specializirovannye-ii-servisy/notebooklm) от Google: загружаете документы, нейросеть работает только с ними.
+-  Технология [**RAG**](../aktualnoye/upravlenie-dannymi-i-pamyatyu/rag) (Retrieval-Augmented Generation) — нейросеть отвечает на основе конкретного хранилища документов. Доступный пример — сервис [Gemini Notebook (NotebookLM)](./../instrumenty/specializirovannye-ii-servisy/notebooklm) от Google: загружаете документы, нейросеть работает только с ними.
 
 -  «Размышляющие» модели (reasoning models): проверяют ответ перед отправкой, реже галлюцинируют на фактических вопросах.
 
@@ -68,13 +68,13 @@ title: Ограничения технологии и галлюцинации
 
 -  [Контекстное окно](./kontekstnoe-okno) — как управлять объемом информации, чтобы снизить риск ошибок
 
--  [NotebookLM](./../instrumenty/specializirovannye-ii-servisy/notebooklm) — готовый RAG-сервис Google для работы по своим источникам
+-  [Gemini Notebook](./../instrumenty/specializirovannye-ii-servisy/notebooklm) — готовый RAG-сервис Google для работы по своим источникам
 
 ## Дополнительные материалы
 
 -  Книга «*Юристы и нейросети: руководство к действию*» — приобретайте на [**OZON**](https://www.ozon.ru/product/yuristy-i-neyroseti-rukovodstvo-k-deystviyu-pavel-mishchenko-3543629335/?at=46tR5gVWYSBOB2Jrik63KEFXyxGAqUXEOnBVhDVl5Zn) **|** [**Читай-город**](https://www.chitai-gorod.ru/product/uristy-i-nejroseti-rukovodstvo-k-dejstviu-3149021) **|** [**Буквоед**](https://www.bookvoed.ru/product/uristy-i-nejroseti-rukovodstvo-k-dejstviu-8790312)
 
--  Лекция Андрея Карпати [**Deep Dive into LLMs like Chat GPT**](https://youtu.be/7xTGNNLPyMI?si=OT9ALHeloeOxLjiO) о стадиях обучения генеративных нейросетей и ее краткий [обзор](https://t.me/docsllm_channel/36) в сообществе Нейросети | ilovedocs 
+-  Лекция Андрея Карпати [**Deep Dive into LLMs like Chat GPT**](https://youtu.be/7xTGNNLPyMI?si=OT9ALHeloeOxLjiO) о стадиях обучения генеративных нейросетей и ее краткий [обзор](https://t.me/docsllm_channel/36) в [сообществе Нейросети | ilovedocs](https://t.me/docsllm) 
 
 -  Видео основателя [сообщества Нейросети | ilovedocs](https://t.me/docsllm) Павла Мищенко «*Нейросеть не придумывает судебную практику. Глубокое исследование. RAG*» в рамках «Январьского ИИнтенсива» [**TG**](https://t.me/ilovedocs/3154) | [**VK**](https://m.vkvideo.ru/playlist/-230225424_4/video-230225424_456239046?from=video&linked=1)
 
