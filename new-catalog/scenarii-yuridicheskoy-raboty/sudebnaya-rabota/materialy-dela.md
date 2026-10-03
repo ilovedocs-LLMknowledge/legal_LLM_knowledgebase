@@ -130,6 +130,8 @@ DeepSeek-OCR-2
 
 -  [Контекстное окно](./../../znakomstvo-s-nejrosetyami/kontekstnoe-okno) -- форматы файлов и расход токенов
 
+-  [ИИ и офисные форматы файлов](./../sostavlenie-dokumentov/fayly-i-formaty) -- как устроены файлы `.docx`, `.doc` и `.pdf` и как с ними работает модель
+
 -  [Транскрипция и аудио](./../../instrumenty/rasshifrovka-audio/_index) -- как переводить записи в текст
 
 -  [Зачем анонимизировать данные](./../../instrumenty/anonimizaciya/zachem-anonimizirovat) -- когда исходники нельзя отдавать на чужой сервер

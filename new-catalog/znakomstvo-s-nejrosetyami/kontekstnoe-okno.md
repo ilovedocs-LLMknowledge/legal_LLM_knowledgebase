@@ -232,6 +232,8 @@ title: Контекстное окно
 
 -  [Форматы данных и API](./../instrumenty/vayb-koding/formaty-dannyh-i-api) -- чем структурированные форматы данных удобны программам
 
+-  [ИИ и офисные форматы файлов](./../scenarii-yuridicheskoy-raboty/sostavlenie-dokumentov/fayly-i-formaty) -- как устроены файлы `.docx`, `.doc` и `.pdf` и как с ними работает модель
+
 ## Дополнительные материалы
 
 -  Книга «*Юристы и нейросети: руководство к действию*» -- приобретайте на [**OZON**](https://www.ozon.ru/product/yuristy-i-neyroseti-rukovodstvo-k-deystviyu-pavel-mishchenko-3543629335/?at=46tR5gVWYSBOB2Jrik63KEFXyxGAqUXEOnBVhDVl5Zn) **|** [**Читай-город**](https://www.chitai-gorod.ru/product/uristy-i-nejroseti-rukovodstvo-k-dejstviu-3149021) **|** [**Буквоед**](https://www.bookvoed.ru/product/uristy-i-nejroseti-rukovodstvo-k-dejstviu-8790312)
