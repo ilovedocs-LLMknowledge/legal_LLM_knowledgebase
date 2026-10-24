@@ -76,6 +76,8 @@ title: Готовые решения и проекты с RAG
 
 -  [Вайб-кодинговые проекты](./../../../proekty-uchastnikov/vayb-kodingovye-proekty) -- RAG-боты и другие инструменты, собранные участниками сообщества
 
+-  [Программы и первый запуск](./../../../instrumenty/lokalnye-llm/programmy-i-zapusk) -- AnythingLLM и Open WebUI: ответы по своим документам с локальной моделью
+
 ## Дополнительные материалы
 
 -  Вебинар «*NotebookLM для юриста: основы RAG*» (15.07.2026): [запись](https://kinescope.io/tQAfjgDFfgYcKooqoVGKb5) · [презентации](https://drive.google.com/file/d/1Q9v-ZVb3adsqhMAXO_77cpRC0DRW0k_H/view) -- разбор Gemini Notebook как готового решения и кейс подготовки обзора судебной практики

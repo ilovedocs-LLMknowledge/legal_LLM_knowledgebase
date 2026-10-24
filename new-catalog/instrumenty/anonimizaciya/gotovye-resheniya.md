@@ -300,6 +300,8 @@ OpenAI выложили в open-source [Privacy Filter](https://github.com/opena
 
 -  [Вайб-кодинговые проекты](./../../proekty-uchastnikov/vayb-kodingovye-proekty) -- Redacto, PII-Shield и другие проекты участников сообщества
 
+-  [Программы и первый запуск](./../lokalnye-llm/programmy-i-zapusk) -- как запускать локальные модели, в том числе через Ollama
+
 ## Дополнительные материалы
 
 -  [Introducing OpenAI Privacy Filter](https://openai.com/index/introducing-openai-privacy-filter/) -- официальное описание, в том числе на русском
