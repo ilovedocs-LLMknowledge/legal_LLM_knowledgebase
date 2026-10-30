@@ -104,7 +104,7 @@ Codex, Claude Code, OpenClaw
 </td>
 <td>
 
-[Харнесс](./../../aktualnoye/agentskiy-ii/upravlenie-agentami/harness) (harness) -- программную обвязку агента, а не веса модели.
+[Харнесс](./../../agentskiy-ii/upravlenie-agentami/harness) (harness) -- программную обвязку агента, а не веса модели.
 
 </td>
 <td>

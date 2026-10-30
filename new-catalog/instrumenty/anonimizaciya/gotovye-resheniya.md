@@ -9,7 +9,7 @@ title: Готовые решения
 
 </note>
 
-**Дата составления:** 2026-09-26\
+**Дата составления:** 2026-10-27\
 **Статус:** 💡 Актуально
 
 ---
@@ -118,7 +118,7 @@ title: Готовые решения
 </td>
 <td>
 
-Анонимизация PDF-файлов, работает локально в  браузере
+Анонимизация PDF-файлов, работает локально в браузере
 
 </td>
 <td>
@@ -141,7 +141,7 @@ title: Готовые решения
 </td>
 <td>
 
-MCP-сервер и скилл для Claude Cowork и Claude Code
+MCP-сервер и скилл для Claude и Claude Code
 
 </td>
 <td>
@@ -275,7 +275,7 @@ OpenAI выложили в open-source [Privacy Filter](https://github.com/opena
 </td>
 <td>
 
-Маскирует `.docx`, `.xlsx`, `.pptx`, `.txt`, `.csv`, `.pdf`, `.png` и `.jpeg` автоматически и вручную -- маркерами или синтетическими данными. Можно создать свой словарь фильтров и подключить своего ИИ-агента через [MCP-коннектор](./../../aktualnoye/agentskiy-ii/kastomizaciya-agentov/mcp)
+Маскирует `.docx`, `.xlsx`, `.pptx`, `.txt`, `.csv`, `.pdf`, `.png` и `.jpeg` автоматически и вручную -- маркерами или синтетическими данными. Можно создать свой словарь фильтров и подключить своего ИИ-агента через [MCP-коннектор](./../../agentskiy-ii/kastomizaciya-agentov/mcp)
 
 </td>
 <td>
@@ -294,9 +294,9 @@ OpenAI выложили в open-source [Privacy Filter](https://github.com/opena
 
 -  [Методы анонимизации](./metody) -- пять подходов и техническая база
 
--  [Claude Cowork](./../../aktualnoye/agentskiy-ii/obzor-servisov/claude-cowork) -- как подключить PII-Shield к Cowork через MCP
+-  [Кастомизация Claude](./../../agentskiy-ii/kastomizaciya-agentov/kastomizaciya-claude) -- как подключить MCP-сервер к Claude
 
--  [MCP-серверы](./../../aktualnoye/agentskiy-ii/kastomizaciya-agentov/mcp) -- как устроены MCP-коннекторы, через которые к Redacto подключается ИИ-агент
+-  [MCP-серверы](./../../agentskiy-ii/kastomizaciya-agentov/mcp) -- как устроены MCP-коннекторы, через которые к Redacto подключается ИИ-агент
 
 -  [Вайб-кодинговые проекты](./../../proekty-uchastnikov/vayb-kodingovye-proekty) -- Redacto, PII-Shield и другие проекты участников сообщества
 

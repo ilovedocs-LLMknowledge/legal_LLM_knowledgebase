@@ -39,7 +39,7 @@ title: Вебинары Сообщества
 
 [Запись](https://kinescope.io/5LTFLuTsRsvVNDDQsPotpH)
 
-[Статья об агентном ИИ](./../aktualnoye/agentskiy-ii/chto-takoe-agentskiy-ii)
+[Статья об агентном ИИ](./../agentskiy-ii/chto-takoe-agentskiy-ii)
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ title: Вебинары Сообщества
 
 [Запись](https://kinescope.io/nHLFdB163653yamVrb6VWx)
 
-[Статья об оркестрации и субагентах](./../aktualnoye/agentskiy-ii/upravlenie-agentami/orkestraciya-i-subagenty)
+[Статья об оркестрации и субагентах](./../agentskiy-ii/upravlenie-agentami/orkestraciya-i-subagenty)
 
 </td>
 </tr>
@@ -117,7 +117,7 @@ title: Вебинары Сообщества
 
 [Запись](https://kinescope.io/tsSAaaECD8Y1rtwbkPF7tn) · [Презентации](https://drive.google.com/drive/folders/1kd97AXaEmK3_bp88CfUzZJJITOpg38S7)
 
-[Статья о харнессах](./../aktualnoye/agentskiy-ii/upravlenie-agentami/harness)
+[Статья о харнессах](./../agentskiy-ii/upravlenie-agentami/harness)
 
 </td>
 </tr>
@@ -253,7 +253,7 @@ title: Вебинары Сообщества
 
 [Запись](https://kinescope.io/tjMUfyeaMnFiFJ84gLAs5h) · [Презентации](https://drive.google.com/drive/folders/1N_qD13qIK6qC6337X_j79G067Ch7SkHZ)
 
-[Статья об агентном ИИ](./../aktualnoye/agentskiy-ii/chto-takoe-agentskiy-ii)
+[Статья об агентном ИИ](./../agentskiy-ii/chto-takoe-agentskiy-ii)
 
 </td>
 </tr>
@@ -273,7 +273,7 @@ title: Вебинары Сообщества
 
 [Запись](https://kinescope.io/0AqYfaixzN27qiHAYXHwzM) · [Презентации](https://drive.google.com/file/d/1a-N49CWL-J5ztwYaO0icR7yMeStp3C6E/view)
 
-[Статья о Claude Cowork](./../aktualnoye/agentskiy-ii/obzor-servisov/claude-cowork)
+[Статья об агентных возможностях Claude](./../agentskiy-ii/obzor-servisov/agentnye-vozmozhnosti-claude)
 
 </td>
 </tr>
@@ -293,7 +293,7 @@ title: Вебинары Сообщества
 
 [Запись](https://kinescope.io/rNhdkPy4D2yUh3w9hLvDb7) · [Презентации](https://drive.google.com/file/d/1H-uZRP5MdrqijsqoH2SiYj2qjXKwr-5G/view)
 
-[Статья о Claude Cowork](./../aktualnoye/agentskiy-ii/obzor-servisov/claude-cowork)
+[Статья об агентных возможностях Claude](./../agentskiy-ii/obzor-servisov/agentnye-vozmozhnosti-claude)
 
 </td>
 </tr>

@@ -208,7 +208,7 @@ Anthropic выпустил офисные надстройки (add-in) Claude �
 
 Выпускница и ментор курса [«Нейросети для юриста: от основ к системе»](https://runetlex-academy.ru/neuralnetworks) **Евгения Нефедьева** поделилась своим опытом использования Claude в PowerPoint:
 
-1. На вход дала надстройке таблицу в формате Markdown и описание слайдов, подготовленное в [Cowork](./../../aktualnoye/agentskiy-ii/obzor-servisov/claude-cowork);
+1. На вход дала надстройке таблицу в формате Markdown и описание слайдов, подготовленное в [Cowork](./../../agentskiy-ii/obzor-servisov/agentnye-vozmozhnosti-claude);
 
 2. Надстройка собрала 5 слайдов с нуля, сохранив цвета и шрифты основной презентации;
 
@@ -226,7 +226,7 @@ Anthropic выпустил офисные надстройки (add-in) Claude �
 
 -  [Контекстное окно](./../../znakomstvo-s-nejrosetyami/kontekstnoe-okno) -- почему длинные документы лучше превращать в текст-источник перед визуализацией
 
--  [Claude Cowork](./../../aktualnoye/agentskiy-ii/obzor-servisov/claude-cowork) -- где удобно готовить содержание перед сборкой визуала
+-  [Агентные возможности Claude](./../../agentskiy-ii/obzor-servisov/agentnye-vozmozhnosti-claude) -- где удобно готовить содержание перед сборкой визуала
 
 ---
 
